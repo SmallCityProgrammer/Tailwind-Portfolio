@@ -8,8 +8,16 @@
   ],
   "routes": [
     {
+      "src": "/portfolio.html",
+      "dest": "/dist/portfolio.html"
+    },
+    {
+      "src": "/skills.html",
+      "dest": "/dist/skills.html"
+    },
+    {
       "src": "/(.*)",
-      "dest": "/dist/"
+      "dest": "/dist/index.html"
     }
   ]
 }

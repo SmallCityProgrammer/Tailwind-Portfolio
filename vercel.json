@@ -1,23 +1,9 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "dist/index.html",
-      "use": "@vercel/static"
-    }
-  ],
   "routes": [
-    {
-      "src": "/portfolio.html",
-      "dest": "/dist/portfolio.html"
-    },
-    {
-      "src": "/skills.html",
-      "dest": "/dist/skills.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/dist/index.html"
-    }
+    { "handle": "filesystem" },
+    { "src": "/index.html", "dest": "/index.html" },
+    { "src": "/portfolio.html", "dest": "/portfolio.html" },
+    { "src": "/skills.html", "dest": "/skills.html" }
   ]
 }

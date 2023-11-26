@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/index.html", "dest": "/index.html" },
-    { "src": "/portfolio.html", "dest": "/portfolio.html" },
-    { "src": "/skills.html", "dest": "/skills.html" }
-  ]
-}

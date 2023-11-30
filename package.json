@@ -1,11 +1,9 @@
 {
-  "name": "tailwinding",
+  "name": "website",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +14,7 @@
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "flowbite": "^2.2.0",
     "preline": "^2.0.2"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
